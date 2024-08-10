@@ -11,7 +11,7 @@ export function HomePage() {
               Computer Science Student
             </h2>
             <p className="text-[#a7a9be] md:text-lg font-displayy">
-              As a rising junior in Computer Science, I’m gaining hands-on experience through a Web Development Internship and a Software Engineering Fellowship.
+              As a rising junior in Computer Science at the University of Minnesota, I’m gaining hands-on experience through a Web Development Internship and a Software Engineering Fellowship.
               I’m passionate about creating innovative solutions and thrive in designing user-friendly interfaces and efficient software.
               My collaborative mindset and strong communication skills drive me to contribute meaningfully to impactful projects.
             </p>
