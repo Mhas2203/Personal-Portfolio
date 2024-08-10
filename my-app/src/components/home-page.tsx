@@ -153,21 +153,22 @@ export function HomePage() {
               <div className="absolute left-1/2 top-0 h-full w-[2px] -translate-x-1/2 bg-[#a7a9be]" />
               <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4">
                 <div className="space-y-2 text-right">
-                  <h3 className="text-lg font-medium font-serif text-[#b8c1ec]">Todo App</h3>
+                  <h3 className="text-lg font-medium font-serif text-[#b8c1ec]">Pong Game</h3>
                   <p className="text-[#a7a9be] font-mono">Personal Project</p>
-                  <p className="text-[#a7a9be] font-display">2023</p>
+                  <p className="text-[#a7a9be] font-display">2024</p>
                 </div>
                 <div className="relative flex items-center justify-center">
                   <div className="h-8 w-8 rounded-full bg-[#b8c1ec]" />
                 </div>
                 <div className="space-y-2 text-left">
                   <p className="text-[#a7a9be] font-display">
-                    Developed a simple todo app using React, TypeScript, and local storage. Implemented features like
-                    adding, deleting, and marking tasks as complete.
+                Developed a fully functional Pong game with sophisticated mechanics such as real-time scoring,
+                paddle movement,and ball dynamics, using HTML, CSS, and JavaScript, while integrating engaging
+                sound effects and optimizing for performance,accuracy, and interactive gameplay.
                   </p>
                   <div className="flex gap-4">
                     <Link
-                      href="#"
+                      href="https://main--best-pong-game.netlify.app"
                       className="inline-flex h-10 items-center justify-center rounded-md bg-[#121629] px-6 text-sm font-medium text-[#b8c1ec] shadow transition-colors hover:bg-[#121629]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                       prefetch={false}
                     >
@@ -175,14 +176,14 @@ export function HomePage() {
                     </Link>
                     <div className="grid grid-cols-2 gap-4">
                       <img
-                        src="/placeholder.svg"
+                        src="/images/Pong.png"
                         width="200"
                         height="150"
                         alt="Todo App Screenshot"
                         className="rounded-md"
                       />
                       <img
-                        src="/placeholder.svg"
+                        src="/images/Pong1.png"
                         width="200"
                         height="150"
                         alt="Todo App Screenshot 2"
@@ -251,3 +252,4 @@ export function HomePage() {
     </div>
   )
 }
+ 
