@@ -33,6 +33,71 @@ export function HomePage() {
       <main className="container mx-auto px-4 py-8 md:py-12 lg:py-16">
         <div className="space-y-8">
           <div>
+
+          <section className="container mx-auto px-4 py-8 md:py-12 lg:py-16">
+        <h2 className="mb-4 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-display text-[#b8c1ec]">
+        Skills
+        </h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+          <div className="flex flex-col items-center">
+            <img src="/images/PY.webp" alt="Python" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">Python</p>
+            </div>
+          <div className="flex flex-col items-center">
+            <img src="/images/JS.png" alt="JavaScript" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">JavaScript</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="/images/HTML.png" alt="HTML" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">HTML</p>
+                </div>
+                
+            <div className="flex flex-col items-center">
+            <img src="/images/CSS.png" alt="CSS" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">CSS</p>
+                </div>
+                
+                <div className="flex flex-col items-center">
+            <img src="/images/Nodejs.png" alt="Node.js" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">Node.js</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="/images/React.png" alt="React.js" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">React.js</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="/images/tailwindcss.webp" alt="Tailwindcss" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">TailwindCss</p>
+          </div>
+          
+          <div className="flex flex-col items-center">
+            <img src="/images/C-icon.png" alt="C" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">C</p>
+          </div>
+                 
+          <div className="flex flex-col items-center">
+            <img src="/images/Vscode.jpg" alt="Visual Studio Code" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">Visual Studio Code</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="/images/Firebase.webp" alt="Firebase" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">Firebase</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="/images/githubb.jpg" alt="GitHub" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">GitHub</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="/images/git-icon.png" alt="Git" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">Git</p>
+          </div>
+        </div>
+      </section>
+        
+            
+
+
+
             <h2 className="mb-4 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-display text-[#b8c1ec]">Experience</h2>
             <div className="relative flex flex-col gap-8">
               <div className="absolute left-1/2 top-0 h-full w-[2px] -translate-x-1/2 bg-[#a7a9be]" />
