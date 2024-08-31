@@ -37,7 +37,7 @@ export function HomePage() {
           <section className="container mx-auto px-4 py-8 md:py-12 lg:py-16">
         <h2 className="mb-4 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-display text-[#b8c1ec]">
         Skills
-        </h2>
+              </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           <div className="flex flex-col items-center">
             <img src="/images/PY.webp" alt="Python" className="w-16 h-16" />
@@ -46,8 +46,19 @@ export function HomePage() {
           <div className="flex flex-col items-center">
             <img src="/images/JS.png" alt="JavaScript" className="w-16 h-16" />
             <p className="mt-2 text-[#a7a9be]">JavaScript</p>
+            </div>
+              
+                <div className="flex flex-col items-center">
+            <img src="/images/Java-logo.webp" alt="JavaScript" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">Java</p>
           </div>
-          <div className="flex flex-col items-center">
+          
+                <div className="flex flex-col items-center">
+            <img src="/images/C-icon.png" alt="C" className="w-16 h-16" />
+            <p className="mt-2 text-[#a7a9be]">C</p>
+                </div>
+                
+                <div className="flex flex-col items-center">
             <img src="/images/HTML.png" alt="HTML" className="w-16 h-16" />
             <p className="mt-2 text-[#a7a9be]">HTML</p>
                 </div>
@@ -68,11 +79,6 @@ export function HomePage() {
           <div className="flex flex-col items-center">
             <img src="/images/tailwindcss.webp" alt="Tailwindcss" className="w-16 h-16" />
             <p className="mt-2 text-[#a7a9be]">TailwindCss</p>
-          </div>
-          
-          <div className="flex flex-col items-center">
-            <img src="/images/C-icon.png" alt="C" className="w-16 h-16" />
-            <p className="mt-2 text-[#a7a9be]">C</p>
           </div>
                  
           <div className="flex flex-col items-center">
@@ -167,13 +173,14 @@ export function HomePage() {
                 sound effects and optimizing for performance,accuracy, and interactive gameplay.
                   </p>
                   <div className="flex gap-4">
-                    <Link
-                      href="https://main--best-pong-game.netlify.app"
-                      className="inline-flex h-10 items-center justify-center rounded-md bg-[#121629] px-6 text-sm font-medium text-[#b8c1ec] shadow transition-colors hover:bg-[#121629]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-                      prefetch={false}
-                    >
-                      Live Demo
-                    </Link>
+      <a
+        href="https://main--best-pong-game.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex h-10 items-center justify-center rounded-md bg-[#121629] px-6 text-sm font-medium text-[#b8c1ec] shadow transition-colors hover:bg-[#121629]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+      >
+        Live Demo
+      </a>
                     <div className="grid grid-cols-2 gap-4">
                       <img
                         src="/images/Pong.png"
@@ -195,36 +202,38 @@ export function HomePage() {
               </div>
               <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4">
                 <div className="space-y-2 text-right">
-                  <h3 className="text-lg font-medium font-serif text-[#b8c1ec]">E-commerce Website</h3>
-                  <p className="text-[#a7a9be] font-mono">Freelance Project</p>
-                  <p className="text-[#a7a9be] font-display">2022</p>
+                  <h3 className="text-lg font-medium font-serif text-[#b8c1ec]">NewsNexus</h3>
+                  <p className="text-[#a7a9be] font-mono">Personal Project</p>
+                  <p className="text-[#a7a9be] font-display">2024</p>
                 </div>
                 <div className="relative flex items-center justify-center">
                   <div className="h-8 w-8 rounded-full bg-[#b8c1ec]" />
                 </div>
                 <div className="space-y-2 text-left">
                   <p className="text-[#a7a9be] font-display">
-                    Designed and developed a responsive e-commerce website for a local clothing brand. Integrated
-                    payment processing and inventory management.
+                Created and deployed a responsive news aggregation website using HTML, CSS, and JavaScript.
+                Leveraged Netlify for efficient hosting and deployment, delivering a user-friendly experience
+                with advanced search functions and optimized performance across all devices.
                   </p>
                   <div className="flex gap-4">
-                    <Link
-                      href="#"
-                      className="inline-flex h-10 items-center justify-center rounded-md bg-[#121629] px-6 text-sm font-medium text-[#b8c1ec] shadow transition-colors hover:bg-[#121629]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-                      prefetch={false}
-                    >
-                      Live Demo
-                    </Link>
+                    <a
+        href="https://newssnexus.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex h-10 items-center justify-center rounded-md bg-[#121629] px-6 text-sm font-medium text-[#b8c1ec] shadow transition-colors hover:bg-[#121629]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+      >
+        Live Demo
+      </a>
                     <div className="grid grid-cols-2 gap-4">
                       <img
-                        src="/placeholder.svg"
+                        src="images/NewsN2.png"
                         width="200"
                         height="150"
                         alt="E-commerce Website Screenshot"
                         className="rounded-md"
                       />
                       <img
-                        src="/placeholder.svg"
+                        src="images/NewsN1.png"
                         width="200"
                         height="150"
                         alt="E-commerce Website Screenshot 2"
@@ -240,12 +249,19 @@ export function HomePage() {
         <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
           <p className="text-[#a7a9be] font-display">&copy; 2024 Musa Hassan. All rights reserved.</p>
           <div className="flex gap-4">
-            <Link href="http://www.linkedin.com/in/musah" className="text-[#a7a9be] hover:underline font-mono" prefetch={false}>
+            <a
+              href="http://www.linkedin.com/in/musah" className="text-[#a7a9be] hover:underline font-mono"
+              target="_blank"
+              rel="noopener noreferrer">
               LinkedIn
-            </Link>
-            <Link href="https://github.com/Mhas2203" className="text-[#a7a9be] hover:underline font-display" prefetch={false}>
+              </a>
+            <a
+              href="https://github.com/Mhas2203"
+              className="text-[#a7a9be] hover:underline font-display"
+              target="_blank"
+              rel="noopener noreferrer">
               GitHub
-            </Link>
+            </a>
           </div>
         </div>
       </footer>
