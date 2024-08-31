@@ -16,13 +16,14 @@ export function HomePage() {
               My collaborative mindset and strong communication skills drive me to contribute meaningfully to impactful projects.
             </p>
             <div className="flex gap-4">
-              <Link
+            <a
                 href="https://shorturl.at/sWcvk"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex h-10 items-center justify-center rounded-md bg-[#121629] px-6 text-sm font-medium text-[#b8c1ec] shadow transition-colors hover:bg-[#121629]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-                prefetch={false}
               >
                 Download Resume
-              </Link>
+              </a>
             </div>
           </div>
           <div className="flex items-center justify-center">
